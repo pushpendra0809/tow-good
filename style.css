@@ -17,24 +17,25 @@ html, body{
 body{
 background-color: #F7F7F7;
 }
-#nav{
+#nav {
     /* height: 100px; */
-    width:100%;
+    width: 100%;
     /* background-color: burlywood; */
     position: fixed;
     z-index: 99;
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 25px;
 }
-#nav #nav-part2{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 40px
+#nav #nav-part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
-#links{
+
+#links {
     padding: 10px;
 }
 #nav-part1 {
@@ -46,23 +47,23 @@ background-color: #F7F7F7;
 #nav-part1 svg {
     display: block;
 }
-#nav-part2 #links a{
+#nav-part2 #links a {
     text-transform: uppercase;
+
     text-decoration: none;
     color: #333;
-    font-weight:500 ;
+    font-weight: 500;
     font-size: 14px;
-    margin-right: 45px;
+    margin: 0 20px;
 }
 #icons {
     padding: 10px;
     border-radius: 50px;
     background-color: #F7F7F7;
-    
 }
-#nav-part2 #icons{
+#nav-part2 #icons i {
     font-size: 18px;
-    margin-right: 50px;
+    margin: 0 20px;
     font-weight: 100;
 }
 
@@ -137,6 +138,7 @@ background-color: #F7F7F7;
     align-items: center;
 }
 
+
 #page2 .elem img{
     height: 100%;
     width: 100%;
@@ -153,6 +155,42 @@ background-color: #F7F7F7;
 }
 #page2 .elem .dets:hover{
      height: 200px;
+}
+#page2 .elem .dets #bar{
+    /* height: 20%; */
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    gap: 15px;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    /* background-color: palegoldenrod; */
+    border-radius: 50px;
+   font-size: small;
+   margin-top: 5px;
+}
+#page2 .elem .dets section {
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    margin: 12px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+   
+}
+#page2 .elem .dets section #imgtag {
+    display: flex;
+    padding: 5px;
+    opacity: 0;
+    scale: 0;
+    width: 30%;
+    object-fit: cover;
+    margin-right:25px ;
+    
+
 }
 
 #page3 {

@@ -95,6 +95,64 @@ videocon.addEventListener("mousemove" ,function(dets){
 }
 videoconAnimation()
 
+
+
+
+
+
+
+
+var imageshow = document.querySelector("#open3")
+imageshow.addEventListener("mouseenter",function(){
+    gsap.to(".imgtag1",{
+        opacity:1,
+        scale:1,
+    })
+})
+imageshow.addEventListener("mouseleave",function(){
+    gsap.to(".imgtag1",{
+        opacity:0,
+        scale:0,
+    })
+})
+var imageshow = document.querySelector("#open2")
+imageshow.addEventListener("mouseenter",function(){
+    gsap.to(".imgtag3",{
+        opacity:1,
+        scale:1,
+    })
+})
+imageshow.addEventListener("mouseleave",function(){
+    gsap.to(".imgtag3",{
+        opacity:0,
+        scale:0,
+    })
+})
+var imageshow = document.querySelector("#open1")
+imageshow.addEventListener("mouseenter",function(){
+    gsap.to(".imgtag5",{
+        opacity:1,
+        scale:1,
+    })
+})
+imageshow.addEventListener("mouseleave",function(){
+    gsap.to(".imgtag5",{
+        opacity:0,
+        scale:0,
+    })
+})
+
+
+
+
+
+
+
+
+
+
+
+
 function loadinganimation(){
     gsap.from("#page1 h1",{
         y:100,
