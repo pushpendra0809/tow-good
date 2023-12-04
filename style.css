@@ -217,6 +217,7 @@ background-color: #F7F7F7;
 
 .child img {
     height: 100%;
+ 
 }
 
 @media  (max-width: 600px) {
@@ -347,6 +348,16 @@ background-color: #F7F7F7;
 
 .child img {
     height: 100%;
+}
+#cursor{
+    height: 180px;
+    width: 180px;
+    background-color: blanchedalmond;
+    border-radius: 50%;
+    position: fixed;
+    transform: translate(-50%,-60%) scale(0);
+    z-index:1;
+
 }
 
 
