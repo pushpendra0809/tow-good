@@ -191,6 +191,16 @@ document.addEventListener("mousemove" , function(dets){
 //         transform: `translate(-50%,-50%) scale(0)`
 //     })
 // })
+// document.querySelector("#child2").addEventListener("mouseenter",function(){
+//     gsap.to("#cursor",{
+//         transform: `translate(-50%,-50%) scale(1)`
+//     })
+// })
+// document.querySelector("#child2").addEventListener("mouseleave",function(){
+//     gsap.to("#cursor",{
+//         transform: `translate(-50%,-50%) scale(0)`
+//     })
+// })
 
 document.querySelectorAll(".child").forEach(function(elem){
     elem.addEventListener("mouseenter",function(){
